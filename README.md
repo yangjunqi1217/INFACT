@@ -51,10 +51,10 @@ Upstream sources (obtain + agree to each one's license separately):
 | Source | Used for | Link |
 |---|---|---|
 | MVBench | faithfulness | https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2 |
-| Video-MME | faithfulness | https://github.com/BradyFU/Video-MME |
+| Video-MME | faithfulness | https://github.com/MME-Benchmarks/Video-MME |
 | TOMATO | faithfulness | https://github.com/yale-nlp/TOMATO |
-| CityGuessr68k | factuality / domain | https://github.com/AUTHORS/CityGuessr |
-| ViMUL-Bench | factuality / domain | https://github.com/mbzuai-oryx/ViMUL-Bench |
+| CityGuessr68k | factuality / domain | https://github.com/ParthPK/CityGuessr |
+| ViMUL-Bench | factuality / domain | https://github.com/mbzuai-oryx/ViMUL |
 | COIN | factuality / procedural | https://github.com/coin-dataset/annotations |
 | MedVidQA | factuality / procedural (clinical) | https://github.com/deepaknlp/MedVidQACL |
 
