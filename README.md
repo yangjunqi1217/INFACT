@@ -158,21 +158,14 @@ python scripts/score.py --runs runs/qwen3_vl_8b/faithfulness --split faithfulnes
 If you use INFACT, please cite both this paper and all upstream sources you use videos / QA from.
 
 ```
-@inproceedings{yang2026infact,
-  title     = {INFACT: A Diagnostic Benchmark for Induced Faithfulness and Factuality Hallucinations in Video-LLMs},
-  author    = {Yang, Junqi and Min, Yuecong and Zhang, Jie and Shan, Shiguang and Chen, Xilin},
-  booktitle = {Proceedings of ACL},
-  year      = {2026},
-  url       = {https://arxiv.org/abs/2603.11481}
-}
-
-@misc{yang2026infact_arxiv,
-  title         = {INFACT: A Diagnostic Benchmark for Induced Faithfulness and Factuality Hallucinations in Video-LLMs},
-  author        = {Yang, Junqi and Min, Yuecong and Zhang, Jie and Shan, Shiguang and Chen, Xilin},
-  year          = {2026},
-  eprint        = {2603.11481},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CL}
+@misc{yang2026infactdiagnosticbenchmarkinduced,
+      title={INFACT: A Diagnostic Benchmark for Induced Faithfulness and Factuality Hallucinations in Video-LLMs},
+      author={Junqi Yang and Yuecong Min and Jie Zhang and Shiguang Shan and Xilin Chen},
+      year={2026},
+      eprint={2603.11481},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.11481},
 }
 ```
 
