@@ -127,7 +127,7 @@ Upstream sources (obtain + agree to each one's license separately):
 ```
 # 1. perturb
 python scripts/perturb.py --split faithfulness --ops gau mb cmp cap sub shu rev
-python scripts/perturb.py --split faithfulness --ops adv        # GPU
+python scripts/perturb.py --split faithfulness --ops adv        
 
 # 2. infer (per model)
 python scripts/eval.py --model qwen3_vl_8b --split faithfulness \
