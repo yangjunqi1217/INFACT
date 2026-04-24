@@ -1,0 +1,27 @@
+gau:
+  sigma: 15.0
+
+mb:
+  kernel_range: [9, 21]
+  angle_jitter: 180.0
+
+cmp:
+  target_ratio: 0.1519
+
+cap:
+  coverage: 0.7
+  mislead_every: 5
+  font_scale: 0.9
+
+sub:
+  p_sub: 0.10
+  p_del: 0.05
+  p_ins: 0.05
+  shift_range: [0.5, 2.0]
+  font_scale: 0.9
+
+adv:
+  epsilon: 0.0627
+  alpha: 0.00784
+  steps: 10
+  mu: 1.0

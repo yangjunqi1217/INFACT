@@ -1,0 +1,14 @@
+videollama2_7b:    DAMO-NLP-SG/VideoLLaMA2-7B
+qwen2_5_vl_7b:     Qwen/Qwen2.5-VL-7B-Instruct
+qwen2_5_vl_32b:    Qwen/Qwen2.5-VL-32B-Instruct
+qwen3_vl_8b:       Qwen/Qwen3-VL-8B-Instruct
+qwen3_vl_32b:      Qwen/Qwen3-VL-32B-Instruct
+internvl3_8b:      OpenGVLab/InternVL3-8B
+internvl3_5_8b:    OpenGVLab/InternVL3_5-8B
+sharegpt4video_8b: Lin-Chen/sharegpt4video-8b
+nvila_8b:          Efficient-Large-Model/NVILA-8B
+pllava_13b:        ermu2001/pllava-13b
+pllava_34b:        ermu2001/pllava-34b
+tarsier_34b:       omni-research/Tarsier-34b
+gpt5_1:            gpt-5.1
+gemini3_flash:     gemini-3-flash

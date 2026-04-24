@@ -1,0 +1,17 @@
+numpy
+pandas
+pyyaml
+tqdm
+pillow
+opencv-python
+decord
+imageio
+imageio-ffmpeg
+scipy
+transformers
+accelerate
+sentencepiece
+einops
+qwen-vl-utils
+openai
+google-genai

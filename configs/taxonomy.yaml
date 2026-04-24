@@ -1,0 +1,47 @@
+mvbench:
+  object_existence:          { track: faithfulness, category: "1.1_entity_recognition",            level: 1 }
+  object_count:              { track: faithfulness, category: "1.2_unique_entity_counting",        level: 1 }
+  color_attribute:           { track: faithfulness, category: "1.4_static_attributes_recognition", level: 1 }
+  scene_transition:          { track: faithfulness, category: "3.3_state_transition_detection",    level: 3, order_sensitive: true }
+  action_sequence:           { track: faithfulness, category: "2.1_action_recognition",            level: 2, order_sensitive: true }
+  action_prediction:         { track: faithfulness, category: "3.2_temporal_relation_recognition", level: 3, order_sensitive: true }
+  action_localization:       { track: faithfulness, category: "3.4_temporal_localization",         level: 3, order_sensitive: true }
+  action_count:              { track: faithfulness, category: "2.2_repetitive_action_counting",    level: 2 }
+  moving_direction:          { track: faithfulness, category: "2.3_motion_attributes_recognition", level: 2, order_sensitive: true }
+  moving_attribute:          { track: faithfulness, category: "2.3_motion_attributes_recognition", level: 2, order_sensitive: true }
+
+videomme:
+  perception_scene:          { track: faithfulness, category: "1.4_static_attributes_recognition", level: 1 }
+  perception_ocr:            { track: faithfulness, category: "1.5_scene_text_recognition",        level: 1 }
+  reasoning_temporal:        { track: faithfulness, category: "3.2_temporal_relation_recognition", level: 3, order_sensitive: true }
+  reasoning_spatial:         { track: faithfulness, category: "3.1_spatial_relation_recognition",  level: 3 }
+
+tomato:
+  direction:                 { track: faithfulness, category: "2.3_motion_attributes_recognition", level: 2, order_sensitive: true }
+  rotation:                  { track: faithfulness, category: "2.3_motion_attributes_recognition", level: 2, order_sensitive: true }
+  velocity_frequency:        { track: faithfulness, category: "2.3_motion_attributes_recognition", level: 2 }
+  shape_trend:               { track: faithfulness, category: "3.3_state_transition_detection",    level: 3, order_sensitive: true }
+  visual_cues:               { track: faithfulness, category: "1.3_temporal_attributes_recognition", level: 1 }
+
+cityguessr:
+  city:                      { track: factuality,   category: "1.3_geospatial_localization",       level: 1 }
+  country:                   { track: factuality,   category: "1.3_geospatial_localization",       level: 1 }
+
+vimulbench:
+  culture:                   { track: factuality,   category: "1.1_cultural_event_recognition",    level: 1 }
+  history:                   { track: factuality,   category: "1.2_historical_background_id",      level: 1 }
+  entertainment:             { track: factuality,   category: "1.4_entertainment_recognition",     level: 1 }
+
+coin:
+  electronic:                { track: factuality,   category: "2.1_electronic_procedural",         level: 2, order_sensitive: true }
+  mechanical:                { track: factuality,   category: "2.2_mechanical_procedural",         level: 2, order_sensitive: true }
+  domestic:                  { track: factuality,   category: "2.3_domestic_procedural",           level: 2, order_sensitive: true }
+
+medvidqa:
+  clinical:                  { track: factuality,   category: "2.4_clinical_procedural",           level: 2, order_sensitive: true }
+
+synthetic_physics:
+  mechanics:                 { track: factuality,   category: "3.1_newtonian_mechanical",          level: 3 }
+  fluid:                     { track: factuality,   category: "3.2_fluid_mechanics",               level: 3 }
+  material:                  { track: factuality,   category: "3.3_material_property",             level: 3 }
+  spatio_temporal:           { track: factuality,   category: "3.4_spatio_temporal_continuity",    level: 3 }

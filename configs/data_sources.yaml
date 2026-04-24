@@ -1,0 +1,8 @@
+mvbench:           /path/to/MVBench
+videomme:          /path/to/Video-MME
+tomato:            /path/to/TOMATO
+cityguessr:        /path/to/CityGuessr68k
+vimulbench:        /path/to/ViMUL-Bench
+coin:              /path/to/COIN
+medvidqa:          /path/to/MedVidQA
+synthetic_physics: /path/to/synthetic
